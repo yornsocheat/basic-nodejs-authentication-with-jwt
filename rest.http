@@ -1,0 +1,15 @@
+GET http://localhost:6000/api/auth/login
+
+###
+POST http://localhost:6000/api/auth/login
+
+
+### Register route
+POST http://localhost:3000/api/auth/signup
+
+Content-Type: application/json
+
+{
+    "name": "Admin",
+    "email": "admin@gmail.com"
+}
